@@ -1,0 +1,139 @@
+/*Extra small device max-with: 576.98px*/
+@media (max-width: 576.98px) {
+    .box-sobre-mim {
+        height: 800px;
+        background: rgba(2, 2, 2, 0.8);
+        padding: 20px;
+
+    }
+
+    .box-sobre-mim h2 {
+        text-align: center;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+
+    .box-sobre-mim p {
+        text-align: center;
+        color: #fff;
+        margin-top: 200px;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+
+    /*PARTE DOS PROJETOS*/
+    .box-projetos {
+        height: 2100px;
+    }
+
+    .box-projetos .box-img {
+        margin-top: 3rem;
+    }
+
+    /*PARTE DO CONTATO*/
+    .box-contato {
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+}
+
+/*Small devices (landscape phones, min-width: 576px and maxwidth: 767.98px )*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .box-sobre-mim {
+        height: 800px;
+        background: rgba(2, 2, 2, 0.8);
+        padding: 20px;
+
+    }
+
+    .box-sobre-mim h2 {
+        text-align: center;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+
+    .box-sobre-mim p {
+        text-align: center;
+        color: #fff;
+        margin-top: 200px;
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+
+    /*PARTE DOS PROJETOS*/
+    .box-projetos {
+        height: 2100px;
+    }
+
+    .box-projetos .box-img {
+        margin-top: 3rem;
+    }
+
+    /*PARTE DO CONTATO*/
+    .box-contato {
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    /*Medium devices (tablets, min-width: 768px and max-width: 991.98px )*/
+    @media (min-width: 768px) and (max-width:991.98px) {
+        .box-sobre-mim {
+            height: 500px;
+            background: rgba(2, 2, 2, 0.8);
+            padding: 20px;
+
+        }
+
+        .box-sobre-mim h2 {
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+
+        .box-sobre-mim p {
+            text-align: center;
+            color: #fff;
+            margin-top: 260px;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+
+    }
+
+    /* Large devices (desktops, min-width: 992px and max-width: 1199.98px)*/
+    @media (min-width: 992px) and (max-width:1199.98px) {
+        .box-sobre-mim {
+            height: 800px;
+            background: rgba(2, 2, 2, 0.8);
+            padding: 20px;
+
+        }
+
+        .box-sobre-mim h2 {
+            text-align: center;
+            color: #fff;
+            margin-top: 30px;
+        }
+
+
+        .box-sobre-mim p {
+            text-align: center;
+            color: #fff;
+            margin-top: 200px;
+            font-size: 1.2em;
+            letter-spacing: 2px;
+        }
+
+    }
+
+    /* X-Large devices (large desktops, min-width: 1200px and max-width: 1399.98px)*/
+    @media (min-width: 1200px) and (max-width:1399.98px) {}
+}
+
+/*XX-Large devices (larger desktops, 1400px */
+@media (min-width: 1400px) {}
