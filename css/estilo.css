@@ -111,7 +111,7 @@ nav{
 
 .box-formacao {
     margin-top: 30px;
-    height: 1000px;
+    height: 1300px;
     padding: 30px;
 }
 
@@ -139,11 +139,12 @@ span {
 /*============Projetos============*/
 
 .box-projetos {
-    height: 800px;
+    height: 900px;
     padding: 20px;
     margin-top: 100px;
     background: rgba(2, 2, 2, 0.8);
 }
+
 .box-projetos img{
     width: 290px;
     height: 200px;
@@ -157,6 +158,11 @@ span {
     margin-top: 60px;
     color: #fff;
     
+}
+.box-projetos hr{
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .box-nivel-conteudos {
