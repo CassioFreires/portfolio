@@ -111,7 +111,7 @@ nav{
 
 .box-formacao {
     margin-top: 30px;
-    height: 1300px;
+    height: 900px;
     padding: 30px;
 }
 
@@ -149,11 +149,15 @@ span {
     width: 290px;
     height: 200px;
     border-radius: 5px;
+ 
 }
 .box-projetos a{
-    width: 290px;
+ width: 290px;
 }
-
+.box-projetos a:hover{
+    box-shadow: 2px 2px 2px 1px black;
+    border-radius: 5pxpx;
+}
 .box-projetos h2 {
     margin-top: 60px;
     color: #fff;
@@ -189,16 +193,21 @@ span {
 .box-contato h2 {
     text-align: center;
 }
-
 .formulario input {
     display: block;
     width: 300px;
     padding: 5px;
+   
 }
-
+.formulario input::placeholder{
+    color: rgb(192, 192, 192);
+    letter-spacing: 1px;
+}
 .formulario label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .formulario .input-mensagem {
@@ -256,4 +265,33 @@ footer {
     align-items: center;
     margin: -30px;
 
+}
+
+/* ====================================== Tela de email ===================================== */
+#layout-email-main{
+    color: #fff;
+    margin: 0 auto;
+}
+.animation h1{
+    width: 1000px;
+}
+.animation {
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+        border-radius: 0;
+    }
+
+    to {
+        top: 230px;
+        margin-left: 160px;
+        border-radius: 15px;
+    }
 }

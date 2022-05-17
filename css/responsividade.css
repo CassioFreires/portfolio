@@ -1,139 +1,75 @@
-/*Extra small device max-with: 576.98px*/
-@media (max-width: 576.98px) {
-    .box-sobre-mim {
-        height: 800px;
-        background: rgba(2, 2, 2, 0.8);
-        padding: 20px;
+/* Small devices (iphone, 400px and up) */
+@media (min-width: 400px) {
 
+    /* Formação */
+    .box-formacao {
+        height: 1300px;
     }
 
-    .box-sobre-mim h2 {
-        text-align: center;
-        color: #fff;
-        margin-top: 30px;
-    }
-
-
-    .box-sobre-mim p {
-        text-align: center;
-        color: #fff;
-        margin-top: 200px;
-        font-size: 1.2em;
-        letter-spacing: 2px;
-    }
-
-    /*PARTE DOS PROJETOS*/
+    /* Projetos */
     .box-projetos {
-        height: 2100px;
+        height: 2200px;
+    }
+     /* Contato */
+     .box-contato {
+        padding: 40px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Formação */
+    .box-formacao {
+        height: 900px;
     }
 
-    .box-projetos .box-img {
-        margin-top: 3rem;
+    /* Projetos */
+    .box-projetos {
+        height: 900px;
     }
 
-    /*PARTE DO CONTATO*/
-    .box-contato {
-        padding: 30px;
+    .box-projetos img {
+        width: 240px;
+        height: 200px;
+        border-radius: 5px;
+        padding: 20px;
+        border-radius: 25px;
         box-sizing: border-box;
+    }
+
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* Porojetos */
+    .box-projetos img {
+        width: 290px;
+        height: 200px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /* Projetos */
+    .box-projetos img {
+        width: 100%;
+    }
+
+    .box-projetos a {
+        width: 100%;
     }
 
 }
 
-/*Small devices (landscape phones, min-width: 576px and maxwidth: 767.98px )*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 
-    .box-sobre-mim {
-        height: 800px;
-        background: rgba(2, 2, 2, 0.8);
-        padding: 20px;
-
+    /* Projetos */
+    .box-projetos img {
+        width: 290px;
     }
-
-    .box-sobre-mim h2 {
-        text-align: center;
-        color: #fff;
-        margin-top: 30px;
-    }
-
-
-    .box-sobre-mim p {
-        text-align: center;
-        color: #fff;
-        margin-top: 200px;
-        font-size: 1.2em;
-        letter-spacing: 2px;
-    }
-
-    /*PARTE DOS PROJETOS*/
-    .box-projetos {
-        height: 2100px;
-    }
-
-    .box-projetos .box-img {
-        margin-top: 3rem;
-    }
-
-    /*PARTE DO CONTATO*/
-    .box-contato {
-        padding: 30px;
-        box-sizing: border-box;
-    }
-
-    /*Medium devices (tablets, min-width: 768px and max-width: 991.98px )*/
-    @media (min-width: 768px) and (max-width:991.98px) {
-        .box-sobre-mim {
-            height: 500px;
-            background: rgba(2, 2, 2, 0.8);
-            padding: 20px;
-
-        }
-
-        .box-sobre-mim h2 {
-            text-align: center;
-            color: #fff;
-            margin-top: 20px;
-        }
-
-
-        .box-sobre-mim p {
-            text-align: center;
-            color: #fff;
-            margin-top: 260px;
-            font-size: 1.2em;
-            letter-spacing: 2px;
-        }
-
-    }
-
-    /* Large devices (desktops, min-width: 992px and max-width: 1199.98px)*/
-    @media (min-width: 992px) and (max-width:1199.98px) {
-        .box-sobre-mim {
-            height: 800px;
-            background: rgba(2, 2, 2, 0.8);
-            padding: 20px;
-
-        }
-
-        .box-sobre-mim h2 {
-            text-align: center;
-            color: #fff;
-            margin-top: 30px;
-        }
-
-
-        .box-sobre-mim p {
-            text-align: center;
-            color: #fff;
-            margin-top: 200px;
-            font-size: 1.2em;
-            letter-spacing: 2px;
-        }
-
-    }
-
-    /* X-Large devices (large desktops, min-width: 1200px and max-width: 1399.98px)*/
-    @media (min-width: 1200px) and (max-width:1399.98px) {}
 }
-
-/*XX-Large devices (larger desktops, 1400px */
-@media (min-width: 1400px) {}

@@ -20,15 +20,12 @@
     <script src="https://kit.fontawesome.com/3e1d127a06.js" crossorigin="anonymous"></script>
     <title>Cassio - Portfolio</title>
 </head>
-
 <body>
     <div class="container">
         <!--==========================================TOPO==============================================================-->
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-
                 <div class="container-fluid">
-
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -53,7 +50,6 @@
                         </ul>
                     </div>
                 </div>
-
             </nav>
         </header>
         <!--==========================================FIM DO TOPO=========================================================-->
@@ -71,9 +67,7 @@
                         <h4>Developer Front-End</h4>
                         <a href="curriculum.docx"><button class="btn btn-outline-dark btn-lg"> Download
                                 CV</button></a>
-
                     </div>
-
                     <div class="icones mt-4">
                         <a href="https://www.instagram.com/cassildsouza/" target="_blank"><i
                                 class="fab fa-instagram fa-2x btn-icones "></i></a>
@@ -81,7 +75,6 @@
                         <a href="https://www.linkedin.com/in/cassio-souza-08347a157/" target="_blank"><i
                                 class="fab fa-linkedin fa-2x btn-icones3"></i></a>
                     </div>
-
                 </div>
             </section>
             <!--Sobre Mim--->
@@ -145,13 +138,13 @@
             <!--Projetos--->
             <section class="box-projetos" id="scrollspyHeading4">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" id="projetos">
                         <h2 class="text-center">PROJETOS CONCLUÍDOS</h2>
                         <hr>
                         <div class="col-md-4 mt-5">
                             <h6 class="text-center text-light">Projeto cronômetro</h6>
                             <div class="d-flex justify-content-center box-img mt-2">
-                                <a href="https://cassiofreires.github.io/projetoCronometro/" target="_blank"><img
+                                <a href="https://cassiofreires.github.io/projetoCronometro/" target="_blank" class="link-img-1"><img
                                         src="img/img_projeto_1.jpg"></a>
                             </div>
                             <div class="d-flex justify-content-center">
@@ -162,7 +155,7 @@
                         <div class="col-md-4 mt-5">
                             <h6 class="text-center text-light">Projeto Lista</h6>
                             <div class="d-flex justify-content-center box-img  mt-2">
-                                <a href="https://cassiofreires.github.io/lista_de_tarefas/" target="_blank"><img
+                                <a href="https://cassiofreires.github.io/lista_de_tarefas/" target="_blank"class="link-img"><img
                                         src="img/img_projeto_2.jpg"></a>
                             </div>
                             <div class="d-flex justify-content-center">
@@ -170,10 +163,10 @@
                                     href="https://cassiofreires.github.io/lista_de_tarefas/">Ver projeto</a href="">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class=" col-md-4 mt-5">
                             <h6 class="text-center text-light">Projeto Guess Game</h6>
                             <div class="d-flex justify-content-center box-img  mt-2">
-                                <a href="https://cassiofreires.github.io/Projeto_guess_game/" target="_blank"><img
+                                <a href="https://cassiofreires.github.io/Projeto_guess_game/" target="_blank"class="link-img"><img
                                         src="img/img_projeto_4.jpg"></a>
                             </div>
                             <div class="d-flex justify-content-center">
@@ -183,10 +176,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 mt-5 ">
+                        <div class=" col-md-4 mt-5 ">
                             <h6 class="text-center text-light">Projeto login</h6>
                             <div class="d-flex justify-content-center box-img  mt-2">
-                                <a href="https://cassiofreires.github.io/telaLogin/" target="_blank"><img
+                                <a href="https://cassiofreires.github.io/telaLogin/" target="_blank"class="link-img"><img
                                         src="img/img_projeto_5.jpg" alt=""></a>
                             </div>
                             <div class="d-flex justify-content-center">
@@ -194,10 +187,10 @@
                                     projeto</a href="">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class=" col-md-4 mt-5">
                             <h6 class="text-center text-light">Projeto em andamento</h6>
                             <div class="d-flex justify-content-center box-img  mt-2">
-                                <a href="#"><img src="img/img_projeto_3.jpg" alt=""></a>
+                                <a href="#"><img src="img/img_projeto_3.jpg" alt="" class="link-img"></a>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <a href="" class="btn btn-danger mt-2">indisponível</a href="#">
@@ -206,7 +199,7 @@
                         <div class="col-md-4 mt-5">
                             <h6 class="text-center text-light">Projeto em andamento</h6>
                             <div class="d-flex justify-content-center box-img  mt-2">
-                                <a href="#"><img src="img/img_projeto_3.jpg" alt=""></a>
+                                <a href="#"><img src="img/img_projeto_3.jpg" alt=""class="link-img"></a>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <a href="" class="btn btn-danger mt-2">indisponível</a href="#">
@@ -218,26 +211,22 @@
             <!--Contatos--->
             <section class="box-contato" id="scrollspyHeading5">
                 <h2>Contato</h2>
-
                 <form class="formulario" id="form">
                     <div>
-                        <label class="form-label" for="input-nome">Nome Completo</label>
+                        <label class="form-label text-secondary " for="input-nome">Nome Completo</label>
                         <input class="form-control w-100" type="text" name="nome" id="input-nome"
                             placeholder="Nome completo">
                     </div>
-
                     <div>
-                        <label class="form-label" for="input-email">Email</label>
+                        <label class="form-label text-secondary" for="input-email">Email</label>
                         <input class="form-control w-100" type="text" name="email" id="input-email"
                             placeholder="E-mail">
                     </div>
-
                     <div>
-                        <label for="texto">Escreva uma mensagem para Cassio Souza</label>
-                        <textarea class="form-control" id="texto" name="texto"></textarea>
+                        <label for="input-texto" class="text-secondary">Escreva uma mensagem para Cassio Souza</label>
+                        <textarea class="form-control" id="input-texto" name="texto"></textarea>
                     </div>
-                    <button class="btn btn-primary btn-formulario mt-3 bnt-enviar-formulario">Enviar</button>
-
+                    <button class="btn btn-primary btn-formulario mt-3" onclick="enviarFormulario()">Enviar</button>
                     <div class="mt-5">
                         <h6>Cell: <span> 21-98175-3423</span></h6>
                         <h6>E-mail: <span>cassio_souza@live.com</span></h6>
@@ -247,17 +236,12 @@
         </article>
         <!--========================================FINAL CONTEUDO=========================================================-->
 
-
         <!--=========================================INICIO RODAPE=========================================================-->
         <footer class="mt-5">
             <span>Developer By Cassio Souza - 21/12/2021 </span>
         </footer>
-
         <!--=========================================FINAL RODAPE==========================================================-->
-
     </div>
-
-
     <!--JavaScript BootStrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -265,5 +249,4 @@
     <!--JavaScript Local-->
     <script src="js/main.js"></script>
 </body>
-
 </html>
