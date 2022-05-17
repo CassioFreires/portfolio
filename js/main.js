@@ -6,8 +6,9 @@ pessoa[2] = document.getElementById('input-texto');
 
 //Ação que envia formulario
 const enviarFormulario = () => {
-    capturarEvento()
-    validacaoFormulario()
+    
+    capturarEvento();
+    validacaoFormulario();
 
 }
 
@@ -36,6 +37,7 @@ const validacaoFormulario = () => {
         return false;
     }
     window.document.getElementById('input-texto').value = '';
+    window.document.location = 'tela_email_enviado.html';
 
 }
 
