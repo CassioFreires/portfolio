@@ -1,3 +1,19 @@
+@media (min-width: 375px) {
+     /* Formação */
+     .box-formacao {
+        height: 1300px;
+    }
+
+    /* Projetos */
+    .box-projetos {
+        height: 2200px;
+    }
+     /* Contato */
+     .box-contato {
+        padding: 40px;
+    }
+}
+
 /* Small devices (iphone, 400px and up) */
 @media (min-width: 400px) {
 
